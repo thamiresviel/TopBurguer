@@ -22,7 +22,7 @@ FOR do label e ID do input, os quaisrecebem o mesmo valor.
 
 # Autores
 
-O design do site foi desenvolvido por @jhenifferdaniely e @GabrielCosta98 
-A programação contou com a participação de @thamiresviel e @marilsonsantos
+O design do site foi desenvolvido por @jhenifferdaniely e @GabrielCosta98.
+A programação contou com a participação de @thamiresviel e @marilsonsantos.
 
 # TOPBURGUER https://jhenifferdaniely.github.io/webaccessibility/
