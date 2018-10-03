@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>TOPBURGUER</title>
+	<!-- favicon -->
+	<link rel="icon" href="images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--JS-->
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- menu acessibilidade -->
+	<div class="barra-acessibilidade" id="topo">
+		<ul>
+			<li><a href="#conteudopag" class="acessibilidade" tabindex="1">[1] ir para o conteúdo</a></li>
+			<li><a href="#menu" class="acessibilidade" tabindex="2">[2] ir para o menu</a></li>
+				
+			<a class="tamfonte acessibilidade" onclick="fonte('d');" tabindex="3">
+				<small class="badge badge-pill badge-info" title="Diminuir fonte">
+					A-
+				</small>
+			</a>
+
+			<a class="tamfonte acessibilidade" onclick="fonte('a');" tabindex="4">
+				<big class="badge badge-pill badge-info" title="Aumentar fonte">
+					A+
+				</big>
+			</a>
+				
+			<span class="acessibilidade">contraste:</span>
+			<a href="#altocontraste" id="altocontraste" class="btn-contrast acessibilidade" title="Selecionar auto contraste"> 
+				<img tabindex="5" src="images/controle-contraste.png" alt="icone alto contraste">		
+			</a>
+		</ul>
+	</div>
+
+	<!-- menu bootstrap -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light acessibilidade" id="menu">
+  		<div class="container">
+  			<!-- logo -->
+  			<a class="navbar-brand" href="index.html" tabindex="6">
+  				<img src="images/logo.png" alt="identidade visual - tipografia">
+  			</a>
+
+  			<!-- botao responsivo -->
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile"				aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  			<!-- links -->
+			<div class="collapse navbar-collapse" id="mobile">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" tabindex="7" href="index.html">INICIO</a></li>
+					<li class="nav-item"><a class="nav-link" tabindex="8" href="cardapio.html">CARDAPIO</a></li>
+					<li class="nav-item"><a class="nav-link" tabindex="9" href="contato.html">CONTATO</a></li>
+				</ul>
+			</div>
+  		</div>
+	</nav>
+
+	<!-- area de introdução -->
+	<section class="main" tabindex="10">
+		<div class="box"> 
+			<img src="images/identidade-visual.png" alt="identidade visual - hamburguer">
+			<h1>
+				HAMBÚRGUER <span>ARTESANAL</span> <br>
+				<span>COM CARNE</span> DE VERDADE
+			</h1> 
+		</div>
+	</section>
+
+	<!-- sobre a hamburgueria -->
+	<section id="conteudopag" class="stead-burg" tabindex="11">
+		<div class="row">
+			<!-- imagem do estabelecimento -->
+			<div class="col-lg-6 stead" tabindex="12">
+				<img src="images/place-burgueria.png" alt="estabelecimento hamburgueria">
+			</div>
+			<!-- textos -->
+			<div class="col-lg-6" tabindex="13">
+				<div>
+					<h1 class="acessibilidade">TOPBURGUER</h1>
+					<p class="acessibilidade">
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						te mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+
+				<div class="text-center stead-text">
+					<h2 class="acessibilidade">ATENDIMENTO</h2>
+					<p class="acessibilidade">SEGUNDA a QUINTA <strong class="acessibilidade">11:45 às 23:00</strong></p>
+					<p class="acessibilidade">SEXTA e SÁBADO <strong class="acessibilidade">11:45 às 00:00</strong></p>
+					<p class="acessibilidade">DOMINGOS e FERIADOS <strong class="acessibilidade">11:00 às 22:30</strong></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- localização -->
+	<div class="box-location" tabindex="14">
+		<div class="container">
+			<h1 class="acessibilidade">Localização</h1>
+			<p class="acessibilidade">Avenida Dr. Luiz Teixeira Mendes, 532 - Sala 1 - Zona 5 - <span>Fone: 3040-3439</span></p>
+		</div>
+	</div>
+
+	<!-- formulario de contato -->
+	<section class="box-contato" tabindex="15">
+		<div class="container">
+			<h1 class="acessibilidade">CONTATO</h1>
+			<p class="acessibilidade">Para maiores dúvidas entre em contato conosco!</p>
+
+			<form class="mx-auto">
+				<div class="form-group">
+					<label for="nome" class="acessibilidade">Nome:</label>
+					<input tabindex="16" type="text" id="nome" class="form-control" placeholder="Digite seu nome aqui">
+				</div>
+
+				<div class="form-group">
+					<label for="email" class="acessibilidade">E-mail:</label>
+					<input tabindex="17" type="email" id="email" class="form-control" placeholder="Digite seu email aqui">
+				</div>
+
+				<div class="form-group">
+					<label for="mensagem" class="acessibilidade">Mensagem:</label>
+					<textarea tabindex="18" id="mensagem" rows="8" class="form-control" placeholder="Mensagem..."></textarea>
+				</div>
+
+				<button  class="acessibilidade btn btn-lg btn-block" tabindex="19" type="submit">ENVIAR</button>
+			</form>
+		</div>
+	</section>
+
+	<!-- rodape -->
+	<footer tabindex="20">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-md-7"> <h2 class="acessibilidade">TODOS OS DIREITOS RESERVADOS | 2018</h2> </div>
+				<div class="col-lg-2 col-md-5 voltar-topo acessibilidade"> <a href="#topo" tabindex="21">voltar ao topo</a></div>
+			</div>
+		</div>
+	</footer>
+	<!-- scripts -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>TOPBURGUER</title>
+		<!-- favicon -->
+		<link rel="icon" href="images/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--JS-->
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- menu acessibilidade -->
+		<div class="barra-acessibilidade" id="topo">
+			<ul>
+				<li><a class="acessibilidade" href="#conteudopag" tabindex="1">[1] ir para o conteúdo</a></li>
+				<li><a class="acessibilidade" href="#menu" tabindex="2">[2] ir para o menu</a></li>
+				
+				<a class="tamfonte acessibilidade" onclick="fonte('d');" tabindex="3">
+					<small class="badge badge-pill badge-info" title="Diminuir fonte">
+					A-
+					</small>
+				</a>
+				<a class="tamfonte acessibilidade" onclick="fonte('a');" tabindex="4">
+					<big class="badge badge-pill badge-info" title="Aumentar fonte">
+					A+
+					</big>
+				</a>
+				
+				<span class="acessibilidade">contraste:</span>
+				<a href="#altocontraste" id="altocontraste" class="btn-contrast" title="Selecionar auto contraste"
+					onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">
+					<img tabindex="5" src="images/controle-contraste.png" alt="icone alto contraste">
+				</a>
+			</ul>
+		</div>
+		<!-- menu bootstrap -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+			<div class="container">
+				<!-- logo -->
+				<a class="navbar-brand" href="index.html" tabindex="6">
+					<img src="images/logo.png" alt="identidade visual - tipografia">
+				</a>
+				<!-- botao responsivo -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile"				aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- links -->
+				<div class="collapse navbar-collapse" id="mobile">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link acessibilidade" tabindex="7" href="index.html">INICIO</a></li>
+						<li class="nav-item"><a class="nav-link acessibilidade" tabindex="8" href="cardapio.html">CARDAPIO</a></li>
+						<li class="nav-item"><a class="nav-link acessibilidade" tabindex="9" href="contato.html">CONTATO</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- area de introdução  -->
+		<section class="main-carte" tabindex="10">
+			<div class="row">
+				<div class="col-md-7">
+					<h1 class="acessibilidade">O HAMBUGUER <br> MAIS <span class="acessibilidade">"TOP"</span> DO <br> BRASIL!</h1>
+				</div>
+				<div class="col-md-5">
+					<img src="images/logo-burguer.png" alt="Identidade visual hamburguer">
+				</div>
+			</div>
+		</section>
+		<!-- lanches -->
+		<section id="conteudopag">
+			<div class="lanches">
+				<img tabindex="11" src="images/lanche1.png" alt="Lanche Chiken R.">
+				<img tabindex="12" src="images/lanche2.png" alt="Lanche Brazilian">
+				<img tabindex="13" src="images/lanche3.png" alt="Lanche Vulcan">
+				<img tabindex="14" src="images/lanche4.png" alt="Lanche Detroit">
+			</div>
+		</section>
+		<!-- localização -->
+		<div class="box-location" tabindex="15">
+			<div class="container">
+				<h1 class="acessibilidade">Localização</h1>
+				<p class="acessibilidade">Avenida Dr. Luiz Teixeira Mendes, 532 - Sala 1 - Zona 5 - <span class="acessibilidade">Fone: 3040-3439</span></p>
+			</div>
+		</div>
+		<!-- mapa -->
+		<iframe tabindex="16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.897128138346!2d-51.95476928514564!3d-23.428082984749242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd7247f0f0f8b%3A0x6d598d0e5876bcaf!2sAv.+Lu%C3%ADs+Teixeira+Mendes%2C+532+-+Zona+05%2C+Maring%C3%A1+-+PR%2C+87015-001!5e0!3m2!1spt-BR!2sbr!4v1527613620948" title="mapa"></iframe>
+		<!-- rodape -->
+		<footer tabindex="17">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10 col-md-7"> <h2 class="acessibilidade">TODOS OS DIREITOS RESERVADOS | 2018</h2> </div>
+					<div class="col-lg-2 col-md-5 voltar-topo"> <a href="#topo" tabindex="18">voltar ao topo</a></div>
+				</div>
+			</div>
+		</footer>
+		<!-- scripts -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

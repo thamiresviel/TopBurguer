@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>TOPBURGUER</title>
+		<!-- favicon -->
+		<link rel="icon" href="images/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--JS-->
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- menu acessibilidade -->
+		<div class="barra-acessibilidade" id="topo">
+			<ul>
+				<li><a class="acessibilidade" href="#conteudopag" tabindex="1">[1] ir para o conteúdo</a></li>
+				<li><a class="acessibilidade" href="#menu" tabindex="2">[2] ir para o menu</a></li>
+				
+				<a class="tamfonte acessibilidade" onclick="fonte('d');" tabindex="3">
+					<small class="badge badge-pill badge-info" title="Diminuir fonte">
+					A-
+					</small>
+				</a>
+				<a class="tamfonte acessibilidade" onclick="fonte('a');" tabindex="4">
+					<big class="badge badge-pill badge-info" title="Aumentar fonte">
+					A+
+					</big>
+				</a>
+				
+				<span class="acessibilidade">contraste:</span>
+				<a href="#altocontraste" id="altocontraste" class="btn-contrast" title="Selecionar auto contraste"
+					onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">
+					<img tabindex="5" src="images/controle-contraste.png" alt="icone alto contraste">
+				</a>
+			</ul>
+		</div>
+		<!-- menu bootstrap -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+			<div class="container">
+				<!-- logo -->
+				<a class="navbar-brand" href="index.html" tabindex="6">
+					<img src="images/logo.png" alt="identidade visual - tipografia">
+				</a>
+				<!-- botao responsivo -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile"				aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- links -->
+				<div class="collapse navbar-collapse" id="mobile">
+					<ul class="navbar-nav ml-auto acessibilidade">
+						<li class="nav-item"><a class="nav-link" tabindex="7" href="index.html">INICIO</a></li>
+						<li class="nav-item"><a class="nav-link" tabindex="8" href="cardapio.html">CARDAPIO</a></li>
+						<li class="nav-item"><a class="nav-link" tabindex="9" href="contato.html">CONTATO</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- area de introdução -->
+		<section id="conteudopag" tabindex="10">
+			<div class="container">
+				<div class="container-duo">
+					<h1 class="acessibilidade">Tem alguma <strong class="acessibilidade">dúvida?</strong> Por favor <strong>fale conosco!</strong></h1>
+					<div class="row bloco-icon">
+						<!-- bloco 1 (email) -->
+						<div class="col-md-6" tabindex="11">
+							<div class="icon">
+								<img src="images/iconemail.png" alt="Icone e-mail. Envelope laranja">
+							</div>
+							<h2 class="acessibilidade">E-mail</h2>
+							<p class="acessibilidade">contato@topburguer.com.br</p>
+						</div>
+						<!-- bloco 2 (telefone) -->
+						<div class="col-md-6" tabindex="12">
+							<div class="icon">
+								<img src="images/iconphone.png" alt="Icone telefone. Telefone laranja">
+							</div>
+							<h2 class="acessibilidade">Telefone</h2>
+							<p class="acessibilidade">3040-3439</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- formulario de contato -->
+		<div class="contato" tabindex="13">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 col-xs-12">
+						<h2 class="acessibilidade">Fale conosco</h2>
+						<form>
+							<div class="form-group">
+								<label class="acessibilidade" for="nome">Nome:</label>
+								<input tabindex="14" type="text" id="nome" class="form-control" placeholder="Digite seu nome aqui">
+							</div>
+							<div class="form-group">
+								<label class="acessibilidade" for="email">E-mail:</label>
+								<input tabindex="15" type="email" id="email" class="form-control" placeholder="Digite seu email aqui">
+							</div>
+							<div class="form-group">
+								<label class="acessibilidade" for="mensagem">Mensagem:</label>
+								<textarea tabindex="16" id="mensagem" rows="8" class="form-control" placeholder="Mensagem..."></textarea>
+							</div>
+							<button  class="acessibilidade btn btn-lg btn-block" tabindex="17" type="submit">ENVIAR</button>
+						</form>
+					</div>
+					
+					<div class="col-md-4 col-sm-12 d-sm-none d-md-block">
+						<img src="images/chefburgue.png" alt="Mulher sorridente. Chefe de cozinha">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- rodape -->
+		<footer tabindex="18">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-10 col-md-7"> <h2 class="acessibilidade">TODOS OS DIREITOS RESERVADOS | 2018</h2> </div>
+					<div class="col-lg-2 col-md-5 voltar-topo"> <a class="acessibilidade" href="#topo" tabindex="19">voltar ao topo</a></div>
+				</div>
+			</div>
+		</footer>
+		<!-- scripts -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
