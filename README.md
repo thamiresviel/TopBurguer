@@ -22,8 +22,8 @@ FOR do label e ID do input, os quaisrecebem o mesmo valor.
 
 # Autores
 
-O design do site foi desenvolvido por @jhenifferdaniely e @GabrielCosta98.
-A programação contou com a participação de @thamiresviel e @marilsonsantos.
+O design do site foi desenvolvido por [@jhenifferdaniely](https://github.com/jhenifferdaniely) e [@GabrielCosta98](https://github.com/GabrielCosta98)
+A programação contou com a participação de [@thamiresviel](https://github.com/thamiresviel) e [@marilsonsantos](https://github.com/marilsonsantos)
 
 # TOPBURGUER 
 https://thamiresviel.github.io/TopBurguer/
